@@ -8,3 +8,10 @@ Este projeto demonstra como realizar **testes de integração** com **Spring Boo
 - **JUnit 5** e **AssertJ** para validação
 
 ---
+
+## 📌 Funcionalidades
+- Criar e listar produtos via API REST
+- Persistência em banco H2 durante os testes
+- Testes de integração simulando chamadas HTTP reais
+
+---
