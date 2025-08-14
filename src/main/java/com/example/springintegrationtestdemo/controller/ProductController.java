@@ -1,7 +1,7 @@
 package com.example.springintegrationtestdemo.controller;
 
-import com.example.springintegrationtest.entity.Product;
-import com.example.springintegrationtest.service.ProductService;
+import com.example.springintegrationtestdemo.entity.Product;
+import com.example.springintegrationtestdemo.service.ProductService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

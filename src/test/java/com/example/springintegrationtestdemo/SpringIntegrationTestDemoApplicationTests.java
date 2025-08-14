@@ -1,7 +1,7 @@
 package com.example.springintegrationtestdemo;
 
-import com.example.springintegrationtest.entity.Product;
-import com.example.springintegrationtest.repository.ProductRepository;
+import com.example.springintegrationtestdemo.entity.Product;
+import com.example.springintegrationtestdemo.repository.ProductRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ProductControllerIntegrationTest {
+public class SpringIntegrationTestDemoApplicationTests {
 
     @LocalServerPort
     private int port;

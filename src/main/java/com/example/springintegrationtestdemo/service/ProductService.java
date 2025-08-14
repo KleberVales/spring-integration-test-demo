@@ -1,7 +1,7 @@
 package com.example.springintegrationtestdemo.service;
 
-import com.example.springintegrationtest.entity.Product;
-import com.example.springintegrationtest.repository.ProductRepository;
+import com.example.springintegrationtestdemo.entity.Product;
+import com.example.springintegrationtestdemo.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
