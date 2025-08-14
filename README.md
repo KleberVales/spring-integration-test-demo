@@ -34,3 +34,11 @@ spring-integration-test-demo/
 │ └── ProductControllerIntegrationTest.java
 └── src/main/resources/application.properties
 ```
+---
+
+## 🚀 Executando o Projeto
+
+### 1️⃣ Rodar a aplicação
+```bash
+./gradlew bootRun
+```
