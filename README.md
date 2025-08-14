@@ -42,3 +42,11 @@ spring-integration-test-demo/
 ```bash
 ./gradlew bootRun
 ```
+
+### A API estará disponível em:
+
+```bash
+
+http://localhost:8080/products
+
+```
