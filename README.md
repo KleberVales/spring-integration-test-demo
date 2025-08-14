@@ -50,3 +50,18 @@ spring-integration-test-demo/
 http://localhost:8080/products
 
 ```
+
+## 🔍 Fluxo do Teste de Integração
+
+```mermaid
+flowchart TD
+    A[Início do Teste] --> B[Spring Boot inicia contexto com H2]
+    B --> C[TestRestTemplate envia POST para /products]
+    C --> D[Controller recebe requisição]
+    D --> E[Service salva no ProductRepository]
+    E --> F[H2 persiste produto em memória]
+    F --> G[TestRestTemplate envia GET para /products]
+    G --> H[Controller retorna lista de produtos]
+    H --> I[Teste valida resposta com AssertJ]
+    I --> J[Fim do Teste]
+```
