@@ -15,3 +15,5 @@ Este projeto demonstra como realizar **testes de integração** com **Spring Boo
 - Testes de integração simulando chamadas HTTP reais
 
 ---
+
+## 📂 Estrutura de Pastas
