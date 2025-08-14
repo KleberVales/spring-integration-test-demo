@@ -9,3 +9,11 @@ public class SpringIntegrationTestDemoApplication {
         SpringApplication.run(SpringIntegrationTestDemoApplication.class, args);
     }
 }
+
+/*
+
+    - Criar endpoints REST para ProductController (GET, POST).
+    - Usar @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT) e TestRestTemplate para fazer requisições reais.
+    - Testar persistência usando banco H2 em memória.
+
+*/
