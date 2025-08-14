@@ -17,3 +17,20 @@ Este projeto demonstra como realizar **testes de integração** com **Spring Boo
 ---
 
 ## 📂 Estrutura de Pastas
+
+```text
+spring-integration-test-demo/
+├── build.gradle.kts
+├── src
+│ ├── main
+│ │ └── java/com/example/springintegrationtest
+│ │ ├── SpringIntegrationTestDemoApplication.java
+│ │ ├── controller/ProductController.java
+│ │ ├── entity/Product.java
+│ │ ├── repository/ProductRepository.java
+│ │ └── service/ProductService.java
+│ └── test
+│ └── java/com/example/springintegrationtest
+│ └── ProductControllerIntegrationTest.java
+└── src/main/resources/application.properties
+```
